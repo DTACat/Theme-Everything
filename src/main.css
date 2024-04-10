@@ -2,10 +2,21 @@
 @import url('https://raw.githubusercontent.com/DTACat/Themed-Devtools/main/src/main.css');
 
 
-
 [class*="shopScroll"] [class*="pageWrapper"] {
 	background: var(--bg-overlay-3);
 }
+
+[class*="sidebarScrollable"] [class*="scroller"] {
+	background: var(--bg-overlay-3);
+}
+[id*="message-accessories"] [class*="contentContainer"] {
+	border-radius: 5px;
+	background: var(--bg-overlay-3);
+}
+[id*="message-accessories"] [class*="rippleContainer"] {
+	background: var(--bg-overlay-3);
+}
+
 [class*="applicationStore"] [class*="mainPageScroller"] {
 	background: var(--bg-overlay-3);
 }
