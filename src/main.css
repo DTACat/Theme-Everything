@@ -1,0 +1,201 @@
+@import url('https://raw.githubusercontent.com/DTACat/Themed-Polls/main/src/main.css');
+@import url('https://raw.githubusercontent.com/DTACat/Themed-Devtools/main/src/main.css');
+
+
+
+[class*="shopScroll"] [class*="pageWrapper"] {
+	background: var(--bg-overlay-3);
+}
+[class*="applicationStore"] [class*="mainPageScroller"] {
+	background: var(--bg-overlay-3);
+}
+[class*="giftCard"] {
+	background: var(--bg-overlay-2);
+}
+[class*="giftCodeContainer"] [class*="description"] {
+	background: var(--bg-overlay-2);
+}
+[class*="attachmentContentItem"] [class*="textContainer"] {
+	background: var(--bg-overlay-1);
+}
+[class*="attachmentContentItem"] [class*="scrollbarGhostHairline"] {
+	background: var(--bg-overlay-1);
+}
+[class*="attachmentContentItem"] [class*="footer"] {
+	background: var(--bg-overlay-1);
+}
+
+
+[id*="tab"] [class*="inputDefault"] {
+	background: var(--bg-overlay-2);
+}
+
+
+
+/*setting backround*/
+[class*="sidebarRegion"] {
+	background: var(--bg-overlay-3);
+}
+[class*="contentRegion"] [class*="contentRegionScroller"] {
+	background: var(--bg-overlay-3);
+}
+
+
+
+[class*="gridContainer"] [class*="grid"] {
+	background: var(--bg-overlay-1);
+}
+[id*="message-content"] [class*="scrollbarGhostHairline"] {
+	background: var(--bg-overlay-1);
+}
+[id*="message-content"] [class*="inline"] {
+	background: var(--bg-overlay-1);
+}
+
+
+[class*="contentWrapper"] {
+	background: var(--bg-overlay-3);
+}
+[class*="contentWrapper"] [class*="wrapper"] {
+	background: var(--bg-overlay-3);
+}
+[class*="contentWrapper"] [class*="inspector"] {
+	background: var(--bg-overlay-3);
+}
+[class*="contentWrapper"] [class*="inner"] {
+	background: var(--bg-overlay-2);
+}
+[class*="contentWrapper"] [class*="soundboardContainer"] [class*="header"] {
+	background: var(--bg-overlay-1);
+}
+[class*="contentWrapper"] [class*="soundboardContainer"] [class*="soundInfo"] {
+	background: var(--bg-overlay-2);
+}
+[class*="contentWrapper"] [class*="soundboardContainer"] [class*="soundAddButton"] {
+	background: var(--bg-overlay-2);
+}
+[class*="contentWrapper"] [class*="soundboardContainer"] [class*="keybindHint"] {
+	background: var(--bg-overlay-2);
+}
+
+[class*="animatorTop"] [class*="picker"] [class*="header_"] {
+	background: var(--bg-overlay-1);
+}
+[class*="animatorTop"] [class*="picker"] [class*="wrapper"] {
+	background: var(--bg-overlay-3);
+}
+[class*="animatorTop"] [class*="picker"] [class*="inner"] {
+	background: var(--bg-overlay-2);
+}
+[class*="animatorTop"] [class*="picker"] [class*="soundInfo"] {
+	background: var(--bg-overlay-2);
+}
+[class*="animatorTop"] [class*="picker"] [class*="soundAddButton"] {
+	background: var(--bg-overlay-2);
+}
+[class*="animatorTop"] [class*="picker"] [class*="keybindHint"] {
+	background: var(--bg-overlay-2);
+}
+
+/*apps*/
+[id="authorized-apps-tab"] [class*="container"] {
+	background: var(--bg-overlay-2);
+}
+[id="authorized-apps-tab"] [class*="authedApp"] {
+	background: var(--bg-overlay-2);
+}
+
+/*connections*/
+[id="connections-tab"] [class*="connectContainer"] {
+	background: var(--bg-overlay-2);
+}
+[id="connections-tab"] [class*="connectionHeader"] {
+	background: var(--bg-overlay-2);
+}
+[id="connections-tab"] [class*="metadataContainer"] {
+	background: var(--bg-overlay-2);
+}
+
+[id="connections-tab"] [class*="connectionOptionsWrapper"] {
+	background: var(--bg-overlay-4);
+}
+[id="connections-tab"] [class*="connection_"] {
+	background: var(--bg-overlay-4);
+}
+
+
+/*long button things*/
+[id*="tab"] [aria-checked="false"] [class*="radioBar"] {
+	background: var(--bg-overlay-2);
+}
+[id*="tab"] [aria-checked="true"] [class*="radioBar"] {
+	background: var(--bg-overlay-4);
+}
+
+
+[id*="tab"] [class*="soundButton"] {
+	background: var(--bg-overlay-2);
+}
+[id*="tab"] [class*="cameraWrapper"] {
+	background: var(--bg-overlay-2);
+}
+
+
+/*dropdowns*/
+[id="settings-clips-tab"] [class*="select"] {
+	background: var(--bg-overlay-2);
+}
+[class*="popout"] [class*="option"] {
+	background: var(--bg-overlay-2);
+}
+[class*="popout"] [aria-selected="true"] {
+	background: var(--bg-overlay-4);
+}
+[id*="tab"] [aria-haspopup="listbox"] {
+	background: var(--bg-overlay-2);
+}
+[id*="tab"] [class*="wrapper"] [class*="select"] {
+	background: var(--bg-overlay-2);
+}
+[id*="tab"] [class*="billingInformation"] {
+	background: var(--bg-overlay-2);
+}
+[id*="tab"] [class*="channelTextArea"] [class*="bioTextArea"] {
+	background: var(--bg-overlay-2);
+}
+
+[id*="tab"] [class*="guildContainer"] {
+	background: var(--bg-overlay-2);
+}
+[id*="tab"] [class*="boostContainer"] {
+	background: var(--bg-overlay-1);
+}
+[id="nitro-server-boost-tab"] [class*="wrapper"] [class*="wrapper__"] {
+	background: var(--bg-overlay-2);
+}
+
+[id="dismissible-content-options-tab"] [class*="inner"] {
+	background: var(--bg-overlay-2);
+}
+[id="experiments-tab"] [class*="inner"] {
+	background: var(--bg-overlay-2);
+}
+
+[id*="popout"] [class*="flex"] [class*="roleScroller"] {
+	background: var(--bg-overlay-3);
+}
+
+[id="game-activity-tab"] [class*="notDetected"] {
+	background: var(--bg-overlay-2);
+}
+[class*="addGamePopout"] {
+	background: var(--bg-overlay-2);
+}
+[class*="addGamePopout"] [class*="wrapper"] [class*="lookFilled"] {
+	background: var(--bg-overlay-3);
+}
+
+
+[id*="vencord"] [class*="vc-addon-card"] {
+	background: var(--bg-overlay-2);
+}
