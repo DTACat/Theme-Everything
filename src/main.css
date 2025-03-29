@@ -2,7 +2,113 @@
 @import url('https://raw.githubusercontent.com/DTACat/Themed-Devtools/main/src/main.css');
 
 
+
+
+
+/*long button things*/
+[id*="tab"] [aria-checked="false"] [class*="radioBar"] {
+	background: var(--bg-overlay-2);
+}
+[id*="tab"] [aria-checked="true"] [class*="radioBar"] {
+	background: var(--bg-overlay-4);
+}
+
+
+[id*="tab"] [class*="soundButton"] {
+	background: var(--bg-overlay-2);
+}
+[id*="tab"] [class*="cameraWrapper"] {
+	background: var(--bg-overlay-2);
+}
+
+
+/*dropdowns*/
+[id="settings-clips-tab"] [class*="select"] {
+	background: var(--bg-overlay-2);
+}
+[class*="popout"] [class*="option"] {
+	background: var(--bg-overlay-2);
+}
+[class*="popout"] [aria-selected="true"] {
+	background: var(--bg-overlay-4);
+}
+[id*="tab"] [aria-haspopup="listbox"] {
+	background: var(--bg-overlay-2);
+}
+[class*="standardSidebarView"] [class*="selectWrapper"] [class*="select"] {
+	background: var(--bg-overlay-2);
+}
+[class*="standardSidebarView"] [class*="inputWrapper"] {
+	background: var(--bg-overlay-2);
+}
+[class*="standardSidebarView"] [class*="inputDefault"] {
+	background: var(--bg-overlay-2);
+}
+[class*="standardSidebarView"] [class*="titleContainer"] {
+	background: var(--bg-overlay-3);
+}
+[class*="standardSidebarView"] [class*="stickyHeader"] {
+	background: var(--bg-overlay-3);
+}
+[class*="standardSidebarView"] [class*="rules"] {
+	background: var(--bg-overlay-2);
+}
+[class*="standardSidebarView"] [class*="customScroller"] {
+	background: var(--bg-overlay-3);
+}
+[id*="tab"] [class*="wrapper"] [class*="select"] {
+	background: var(--bg-overlay-2);
+}
+[id*="tab"] [class*="channelTextArea"] [class*="bioTextArea"] {
+	background: var(--bg-overlay-2);
+}
+[class*="searchBar"] {
+	background: var(--bg-overlay-2);
+}
+[class*="privateChannels"] [class*="searchBar"] [class*="searchBar"] {
+	background: var(--bg-overlay-3);
+}
+
+[id*="tab"] [class*="guildContainer"] {
+	background: var(--bg-overlay-2);
+}
+[id*="tab"] [class*="boostContainer"] {
+	background: var(--bg-overlay-1);
+}
+[id="nitro-server-boost-tab"] [class*="wrapper"] [class*="wrapper__"] {
+	background: var(--bg-overlay-2);
+}
+
+[id="dismissible-content-options-tab"] [class*="inner"] {
+	background: var(--bg-overlay-2);
+}
+[id="experiments-tab"] [class*="inner"] {
+	background: var(--bg-overlay-2);
+}
+
+[id*="popout"] [class*="flex"] [class*="roleScroller"] {
+	background: var(--bg-overlay-3);
+}
+
+[id="game-activity-tab"] [class*="notDetected"] {
+	background: var(--bg-overlay-2);
+}
+[class*="addGamePopout"] {
+	background: var(--bg-overlay-2);
+}
+[class*="addGamePopout"] [class*="wrapper"] [class*="lookFilled"] {
+	background: var(--bg-overlay-3);
+}
+
+
+
+
+
+
 [class*="shopScroll"] [class*="pageWrapper"] {
+	background: var(--bg-overlay-3);
+}
+[class*="shopScroll"] [class*="shop__"] {
 	background: var(--bg-overlay-3);
 }
 
@@ -44,7 +150,13 @@
 
 
 /*setting backround*/
-[class*="sidebarRegion"] {
+[class*="layers__960e4"] {
+	background: var(--bg-overlay-3);
+}
+[class*="sidebarRegionScroller"] {
+	background: var(--bg-overlay-3) !important;
+}
+[class*="sidebarRegion"] [class*="sidebar__"] {
 	background: var(--bg-overlay-3);
 }
 [class*="contentRegion"] [class*="contentRegionScroller"] {
@@ -67,7 +179,7 @@
 [class*="contentWrapper"] {
 	background: var(--bg-overlay-3);
 }
-[class*="contentWrapper"] [class*="wrapper"] {
+[class*="contentWrapper"] [class*="wrapper"]:not(:has([placeholder="Find the perfect sound"])) {
 	background: var(--bg-overlay-3);
 }
 [class*="contentWrapper"] [class*="inspector"] {
@@ -76,11 +188,11 @@
 [class*="contentWrapper"] [class*="inner"] {
 	background: var(--bg-overlay-2);
 }
-[class*="contentWrapper"] [class*="soundboardContainer"] [class*="header"] {
-	background: var(--bg-overlay-1);
-}
-[class*="contentWrapper"] [class*="soundboardContainer"] [class*="soundInfo"] {
+[class*="contentWrapper"] [class*="soundboardContainer"] [class*="soundButtonRefresh"] {
 	background: var(--bg-overlay-2);
+}
+[class*="contentWrapper"] [class*="soundboardContainer"] [class*="soundButtonWrapper"] {
+	background: none;
 }
 [class*="contentWrapper"] [class*="soundboardContainer"] [class*="soundAddButton"] {
 	background: var(--bg-overlay-2);
@@ -88,6 +200,97 @@
 [class*="contentWrapper"] [class*="soundboardContainer"] [class*="keybindHint"] {
 	background: var(--bg-overlay-2);
 }
+
+[class*="animatorTop"] [class*="picker"] [class*="soundButtonRefresh"] {
+	background: var(--bg-overlay-2);
+}
+[class*="animatorTop"] [class*="picker"] [class*="soundButtonWrapper"] {
+	background: none;
+}
+[class*="animatorTop"] [class*="picker"] [class*="soundAddButton"] {
+	background: var(--bg-overlay-2);
+}
+[class*="animatorTop"] [class*="picker"] [class*="keybindHint"] {
+	background: var(--bg-overlay-2);
+}
+
+/*gif stickers emojis soundmojis soundboard*/
+[class*="contentWrapper"]:has(#gif-picker-tab-panel) {
+	background: var(--bg-overlay-4);
+}
+[id*="gif-picker-tab-panel"] {
+	background: var(--bg-overlay-3);
+}
+[id*="gif-picker-tab-panel"] [class*="header"] {
+	background: var(--bg-overlay-4);
+}
+
+[class*="contentWrapper"]:has(#emoji-picker-tab-panel) {
+	background: var(--bg-overlay-4);
+}
+[id*="emoji-picker-tab-panel"] {
+	background: var(--bg-overlay-3);
+}
+[id*="emoji-picker-tab-panel"] [class*="header_"]:has([class*="searchBar"]) {
+	background: var(--bg-overlay-4);
+    border-radius: 0px;
+}
+[id*="emoji-picker-tab-panel"] [class*="categorySection"] {
+	background: var(--bg-overlay-3);
+}
+[id*="emoji-picker-tab-panel"] [class*="emojiItemSelected"] {
+	background: var(--bg-overlay-6);
+}
+
+[class*="contentWrapper"]:has(#sticker-picker-tab-panel) {
+	background: var(--bg-overlay-4);
+}
+[id*="sticker-picker-tab-panel"] {
+	background: var(--bg-overlay-3);
+}
+[id*="sticker-picker-tab-panel"] [class*="header_"]:has([class*="wrapper"]) {
+	background: var(--bg-overlay-4);
+}
+[id*="sticker-picker-tab-panel"] [class*="stickerInspected"] [class*="inspectedIndicator"] {
+	background: var(--bg-overlay-6);
+}
+
+[class*="contentWrapper"]:has([class*="soundboardContainer"]) {
+	background: var(--bg-overlay-4);
+}
+[class*="soundboardContainer"] {
+	background: var(--bg-overlay-3);
+}
+[class*="soundboardContainer"] [class*="soundboardHeader"]:has([class*="wrapper_"]) {
+	background: var(--bg-overlay-4);
+    border-radius: 0px;
+}
+[class*="soundboardContainer"] [class*="categorySection"] {
+	background: var(--bg-overlay-3);
+}
+[class*="soundboardContainer"] [class*="emojiItemSelected"] {
+	background: var(--bg-overlay-6);
+}
+
+
+/*message crap*/
+[class*="pollContainer"] {
+	background: var(--bg-overlay-2);
+}
+[class*="pollContainer"] [class*="buttonPresentation"] {
+	background: var(--bg-overlay-1);
+}
+[class*="channelAttachmentArea"] {
+	background: var(--bg-overlay-4);
+    border-radius: 10px
+}
+[class*="embedWrapper"] [class*="footer"] {
+	background: var(--bg-overlay-2);
+}
+[class*="wrapper"] [class*="wrapper"]:has([class*="inviteSplash"]) {
+	background: var(--bg-overlay-2);
+}
+
 
 [class*="animatorTop"] [class*="picker"] [class*="header_"] {
 	background: var(--bg-overlay-1);
@@ -108,12 +311,25 @@
 	background: var(--bg-overlay-2);
 }
 
+/*socials*/
+[id="content-&-social-tab"] [class*="card"] [class*="header"] {
+	background: var(--bg-overlay-2);
+}
+[id="content-&-social-tab"] [class*="card"]  {
+	background: var(--bg-overlay-4);
+}
+
 /*apps*/
+[id="authorized-apps-tab"] [class*="formNotice"] {
+    background: var(--bg-overlay-2);
+	border-color: var(--bg-overlay-2);
+}
 [id="authorized-apps-tab"] [class*="container"] {
 	background: var(--bg-overlay-2);
 }
 [id="authorized-apps-tab"] [class*="authedApp"] {
 	background: var(--bg-overlay-2);
+    border-color: var(--bg-overlay-2);
 }
 
 /*connections*/
@@ -134,77 +350,28 @@
 	background: var(--bg-overlay-4);
 }
 
-
-/*long button things*/
-[id*="tab"] [aria-checked="false"] [class*="radioBar"] {
-	background: var(--bg-overlay-2);
-}
-[id*="tab"] [aria-checked="true"] [class*="radioBar"] {
-	background: var(--bg-overlay-4);
-}
-
-
-[id*="tab"] [class*="soundButton"] {
-	background: var(--bg-overlay-2);
-}
-[id*="tab"] [class*="cameraWrapper"] {
+/*nitro*/
+[id="discord-nitro-tab"] [class*="expandedProgressBarContainerSettingsPage"] {
 	background: var(--bg-overlay-2);
 }
 
-
-/*dropdowns*/
-[id="settings-clips-tab"] [class*="select"] {
+/*subs*/
+[id*="tab"] [class*="detailsBlock"] {
 	background: var(--bg-overlay-2);
 }
-[class*="popout"] [class*="option"] {
-	background: var(--bg-overlay-2);
-}
-[class*="popout"] [aria-selected="true"] {
-	background: var(--bg-overlay-4);
-}
-[id*="tab"] [aria-haspopup="listbox"] {
-	background: var(--bg-overlay-2);
-}
-[id*="tab"] [class*="wrapper"] [class*="select"] {
-	background: var(--bg-overlay-2);
-}
-[id*="tab"] [class*="billingInformation"] {
-	background: var(--bg-overlay-2);
-}
-[id*="tab"] [class*="channelTextArea"] [class*="bioTextArea"] {
-	background: var(--bg-overlay-2);
-}
-
-[id*="tab"] [class*="guildContainer"] {
-	background: var(--bg-overlay-2);
-}
-[id*="tab"] [class*="boostContainer"] {
+[id*="subscriptions-tab"] [aria-haspopup="listbox"] {
 	background: var(--bg-overlay-1);
 }
-[id="nitro-server-boost-tab"] [class*="wrapper"] [class*="wrapper__"] {
+
+/*billing*/
+[id*="billing-tab"] [class*="bottomDivider"] {
+	background: var(--bg-overlay-2);
+}
+[id*="billing-tab"] [class*="pageActions"] {
 	background: var(--bg-overlay-2);
 }
 
-[id="dismissible-content-options-tab"] [class*="inner"] {
-	background: var(--bg-overlay-2);
-}
-[id="experiments-tab"] [class*="inner"] {
-	background: var(--bg-overlay-2);
-}
 
-[id*="popout"] [class*="flex"] [class*="roleScroller"] {
-	background: var(--bg-overlay-3);
-}
-
-[id="game-activity-tab"] [class*="notDetected"] {
-	background: var(--bg-overlay-2);
-}
-[class*="addGamePopout"] {
-	background: var(--bg-overlay-2);
-}
-[class*="addGamePopout"] [class*="wrapper"] [class*="lookFilled"] {
-	background: var(--bg-overlay-3);
-}
 
 
 [id*="vencord"] [class*="vc-addon-card"] {
